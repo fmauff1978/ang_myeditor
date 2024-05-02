@@ -3,6 +3,17 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Electron Main",
+      "program": "${workspacefolder}/main.js",
+      "request": "launch",
+      "runtimeExecutable": "$C:\Users\f3163049\Documents\ang_myeditor/node_modules/.bin/electron",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    },
+
+    {
       "name": "ng serve",
       "type": "chrome",
       "request": "launch",
